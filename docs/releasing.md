@@ -35,7 +35,7 @@ the source archive. CI also checks Python 3.14 on Linux, macOS and Windows.
 6. Verify both PyPI SHA256 digests against the workflow artifacts, perform a fresh
    registry install, and attach the verified distributions to the GitHub release.
 
-The PyPI publisher must identify owner `outside-labs`, repository `func_seq`,
+The PyPI publisher must identify owner `wispsy`, repository `func_seq`,
 workflow `release.yaml`, and environment `pypi`. The GitHub environment permits
 version tags. No long-lived PyPI API token is stored in this repository.
 See [PyPI Trusted Publishing](https://docs.pypi.org/trusted-publishers/using-a-publisher/).
