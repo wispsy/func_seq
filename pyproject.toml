@@ -10,8 +10,8 @@ requires-python = ">=3.14"
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/outside-labs/func_seq"
-Issues = "https://github.com/outside-labs/func_seq/issues"
+Repository = "https://github.com/wispsy/func_seq"
+Issues = "https://github.com/wispsy/func_seq/issues"
 
 [project.scripts]
 func-seq = "func_seq.cli:main"
